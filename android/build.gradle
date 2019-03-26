@@ -16,7 +16,7 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
-        maven { url "https://raw.github.com/g123k/ShortcutBadger/master" }
+        mavenCentral()
     }
 }
 
@@ -36,5 +36,5 @@ android {
 
 dependencies {
     //noinspection GradleDependency
-    implementation "me.leolin:ShortcutBadger:1.1.21-oreo-fix@aar"
+    implementation "me.leolin:ShortcutBadger:1.1.22@aar"
 }
